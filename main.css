@@ -1,136 +1,42 @@
 body {
   background-color: blanchedalmond;
   padding: 0 8px;
-  width: 100%;
+  font-family: 'Jua', sans-serif;
+  max-width: 1000px;
 }
 
 header {
-  padding: 8px 0;
+  padding: 8px 0 16px 0;
   display: flex;
   justify-content: space-between;
 }
 
-header .Logo {
-  width: 250px;
-}
-
 header .Logo-title {
   display: flex;
+  margin-bottom: 4px;
 }
 
 header .Logo-title-name {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 8px;
   font-size: 30px;
 }
 
 header .Logo-subtitle {
-  font-size: 20px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header nav {
-  font-size: 30px;
-  width: 500px;
+  font-size: 20px;
+  width: 300px;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-section {
-  display: flex;
-}
-
-section article {
-  width: 70%;
-}
-
-section article .title {
-  padding: 8px 0;
-  display: flex;
-  justify-content: flex-start;
-}
-
-section article .title-text {
-  margin-left: 8px;
-  font-size: 30px;
-}
-
-section article .content {
-  padding: 8px 4px;
-  font-size: 12px;
-}
-
-section aside {
-  padding-bottom: 20px;
-}
-
-section aside .content {
-  padding: 8px 0;
-  background-color: gray;
-  color: white;
-}
-
-section aside .content .title {
-  font-size: 30px;
-  padding: 8px 0;
-}
-
-section aside .content .image {
-  display: flex;
-  justify-content: center;
-  padding: 8px 0;
-}
-
-section aside .media {
-  display: flex;
-  justify-content: space-around;
-}
-
-footer {
-  display: flex;
-  justify-content: space-around;
-}
-
-footer .tweet {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-footer .tweet .title {
-  font-size: 30px;
-  padding-bottom: 8px;
-}
-
-footer .pictures .title {
-  font-size: 30px;
-  padding-bottom: 8px;
-}
-
-footer .friends .title {
-  font-size: 30px;
-  padding-bottom: 8px;
-}
-
-footer .tweet .text {
-  font-size: 12px;
-}
-
-footer .pictures .content {
-  display: flex;
-  justify-content: flex-start;
-}
-
-footer .pictures img {
-  border: 1px solid black;
-}
-
-footer .friends .list {
-  display: flex;
-  justify-content: space-around;
-}
-
-footer .friends .list .text{
-  font-size: 12px;
-  margin: 4px 0;
-  color: brown;
+.ad img {
+  width: 100%;
+  max-width: 1000px;
 }
